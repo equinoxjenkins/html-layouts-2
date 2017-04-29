@@ -1,95 +1,89 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
-  margin: 10px;
-  justify-content: space-between;
+  height: 250px;
+  align-items: center;
 }
 
-.box1 {
-  height: 15vh;
-  width: calc(100vw / 3);
-  margin: 0px 5px;
-  display: inline-block;
-  box-sizing: content-box;
-  float: left;
-  background-color: rgb(196, 33, 33);
-
+.one {
+  height: 200px;
+  width: calc(100% / 3);
+  margin-left: 30px;
+  background-color: rgb(114, 217, 140);
 }
 
-.box2 {
-  height: 15vh;
-  width: calc(100vw / 3);
-  margin: 0px 5px;
-  display: inline-block;
-  box-sizing: content-box;
-  float: left;
-  background-color: rgb(10, 117, 228);
+.two {
+  height: 200px;
+  width: calc(100% / 3);
+  margin-left: 30px;
+  background-color: rgb(40, 157, 90);
 }
 
-.box3 {
-  height: 15vh;
-  width: calc(100vw / 3);
-  margin: 0px 5px;
-  display: inline-block;
-  box-sizing: content-box;
-  float: left;
-  background-color: rgb(52, 52, 52);
+.three {
+  height: 200px;
+  width: calc(100% / 3);
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgb(43, 140, 149);
 }
+
 .paragraph {
   display: flex;
-  margin: 10px;
-  justify-content: space-between;
-  font-size: 15px;
-  font-family: cursive;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  justify-content: center;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-.section1 {
+
+p {
+  font-size: 25px;
+  margin: 15px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.middle {
   display: flex;
-  margin: 10px;
-  justify-content: space-between;
-}
-.red {
-  background-color: rgb(196, 33, 33);
-  height: 20vh;
-  width: 33vw;
-  float: left;
-
+  height: 400px;
+  margin: 30px;
 }
 
-.blue {
-  background-color: rgb(10, 117, 228);
+.left {
+  height: auto;
+  width: 30%;
+  background-color: rgb(43, 140, 149);
+}
+
+.right {
+  height: auto;
+  width: 70%;
+  background-color: rgb(114, 217, 140);
+}
+
+.bottom {
   display: flex;
-  height: 20vh;
-  width:67vw;
-  float:left;
+  height: 250px;
+  margin: 30px;
 }
 
-.section2 {
+.left-two {
+  height: auto;
+  width: 60%;
+  background-color: rgb(40, 157, 90);
+}
+
+.right-two {
   display: flex;
-  margin: 10px;
-  justify-content: space-between;
-}
-.red2 {
-  background-color: rgb(196, 33, 33);
-  height: 25vh;
-  width: 33vw;
-  float: left;
-
+  justify-content: center;
+  height: auto;
+  width: 40%;
+  background-color: rgb(43, 140, 149);
 }
 
-.blue2 {
-  background-color: rgb(10, 117, 228);
-  display: flex;
-  height: 25vh;
-  width:67vw;
-  float:left;
-}
-
-.gray {
-  background-color: rgb(125, 125, 125);
-  height: 25vh;
-  width: 20vw;
-  top: 50%;
-  left: 50%;
-  margin: auto;
+.inside {
+  height: auto;
+  width: 70%;
+  background-color: rgb(114, 217, 140);
 }

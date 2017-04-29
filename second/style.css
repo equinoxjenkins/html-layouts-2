@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: rgb(235, 235, 235);
+}
+
+.wrapper {
+  margin: 50px;
+}
+
+.top {
+  height: auto;
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  margin-bottom: 30px;
+}
+
+.button-one {
+  height: 70px;
+  width: 130px;
+  margin-right: 10px;
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  background-color: rgb(212, 146, 144);
+  border-radius: 5px;
+  color: white;
+
+}
+
+.button-two {
+  height: 70px;
+  width: 130px;
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  background-color: rgb(149, 69, 85);
+  border-radius: 5px;
+  color: white;
+}
+
+.middle {
+  height: auto;
+  background-color: white;
+  padding: 40px;
+}
+
+.image {
+  height: 600px;
+  background-image: url('../pink.jpg');
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+  background-color: rgb(182, 167, 187);
+}
+
+button {
+  height: inherit;
+  padding: 10px;
+  width: 150px;
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  background-color: inherit;
+  border-style: none;
+}
